@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get('/')
 async def main():
-    return {'Hello'}
+    return {'Hello!'}
 
 
 @app.post('/api/post/')
